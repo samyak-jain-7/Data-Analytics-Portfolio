@@ -5,7 +5,7 @@ Relational database analytics evaluating Swiggy customer behavior, restaurant re
 
 ## 📁 Repository Files
 * **[Swiggy_Project.pdf](./Swiggy_Project.pdf)** — Full visual case study presentation.
-* **[Swiggy_ans.sql](./Swiggy_ans.sql)** — Raw SQL script containing all 13 analytical queries.
+* **[Swiggy_ans.sql](./swiggy_ans.sql)** — Raw SQL script containing all 13 analytical queries.
 
 ## 💾 Dataset
 * Due to file size limits (>100 MB), the raw dataset is hosted externally:
