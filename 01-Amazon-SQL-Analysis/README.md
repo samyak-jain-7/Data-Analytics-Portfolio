@@ -9,4 +9,4 @@ A SQL-driven exploration of orders, sellers, customers, revenue, and delivery pe
 
 ## 💾 Dataset
 * Due to file size limits (>100 MB), the raw dataset is hosted externally:
-* **[Download Raw Amazon Dataset Here]:(https://drive.google.com/file/d/1pKwXI1DtgUSP2lImvnt2-6FyNxfoXp0I/view?usp=sharing)**
+* **[Download Raw Amazon Dataset Here](https://drive.google.com/file/d/1pKwXI1DtgUSP2lImvnt2-6FyNxfoXp0I/view?usp=sharing)**
