@@ -8,5 +8,4 @@ An executive performance report evaluating station utilization, customer demand 
 * **[Tata_Power_EV_Dashboard.xlsx](./Tata_Power_EV_Dashboard.xlsx)** — Full interactive Excel workbook with data models and pivot dashboards.
 
 ## 💾 Dataset
-* Due to file size limits (>100 MB), the raw dataset is hosted externally:
-* **[Download Raw EV Network Dataset Here](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
+* All 6 raw CSV and text data files are uploaded directly in this project folder.
