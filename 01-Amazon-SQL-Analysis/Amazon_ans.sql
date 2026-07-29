@@ -60,15 +60,15 @@
 -- ORDER BY Total_Revenue DESC LIMIT 5
 
 # Q9. Find the median delivery time (in days) between order placement and actual delivery.
-WITH A AS (
-SELECT DATEDIFF(DATE(order_delivered_customer_date),DATE(order_purchase_timestamp))  AS Time_Diff
-FROM orders),
-B AS ( SELECT Time_Diff, ROW_NUMBER() OVER(ORDER BY Time_Diff) AS RN, COUNT(*) OVER() AS Total_Count
-FROM A )
-SELECT AVG(Time_Diff) AS Median_Delivery_Time
-FROM B
-WHERE RN IN( FLOOR((Total_Count+1)/2), FLOOR((Total_Count+2)/2)
-)
+-- WITH A AS (
+-- SELECT DATEDIFF(DATE(order_delivered_customer_date),DATE(order_purchase_timestamp))  AS Time_Diff
+-- FROM orders),
+-- B AS ( SELECT Time_Diff, ROW_NUMBER() OVER(ORDER BY Time_Diff) AS RN, COUNT(*) OVER() AS Total_Count
+-- FROM A )
+-- SELECT AVG(Time_Diff) AS Median_Delivery_Time
+-- FROM B
+-- WHERE RN IN( FLOOR((Total_Count+1)/2), FLOOR((Total_Count+2)/2)
+-- )
 
 
 # Q10. Find all products that have never been ordered. 
